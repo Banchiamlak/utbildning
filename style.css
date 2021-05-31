@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Pacifico&family=Righteous&family=Roboto+Condensed&display=swap');
+
+*{ 
+    margin:0;
+    padding:0;
+}
+
+html {
+    scroll-behavior :smooth;
+}
+
+body { 
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'lato';
+    line-height: 20px;
+    color:black;
+}
+a:hover {
+ color:orange; 
+} 
+
+.header-background{
+    min-height: 750px;
+    width: 100%;
+    background-image: url('Gradhat.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+} 
+
+.nav-link{
+    font-size: 16px;
+    margin: 15px;
+    color: black !important; 
+    font-family: "Roboto Condensed"; 
+} 
+
+.nav-link:hover{
+    color:orange!important;
+}
+
+.wrapper{
+    padding:30px;
+}
+
+
+/* main sektion */
+main{
+    padding:5px;
+}
+
+p{
+    text-align: center;
+}
+
+.info{
+    height:600px;
+}
+
+#graf1{
+    height:500px;
+}
+
+#graf2{
+    height:500px;
+}
+
+#map {
+    width:425x;
+    height:400px;
+}
+#bild{
+    width:450px;
+    height:400px;
+}
+
+@media only screen and (max-width: 1024px) {
+   
+    #bild{
+        width:350px;
+        height:400px;
+    }
+}
+
+.site-banner{
+    color:whitesmoke;
+    font-family: "Robot";
+    text-align: center;
+    padding-top: 13%;
+    padding-right: 35%;
+    position: absolute;
+}
+  
+.title1{
+    padding-top:75px;
+    margin-bottom:15px;
+    text-align:center;
+    font-family:'Lato';
+    color:orange;
+}
+
+.title2{
+    padding-top:20px;
+    margin-bottom:15px;
+    text-align:center;
+    font-family:'Lato';
+    color:orange;
+}
+
+.title3{
+    padding-bottom: 15px;
+    margin-bottom:15px;
+    text-align:center;
+    font-family:'Lato';
+    color:orange;
+}
+
+.title4{
+    padding-bottom:15px;
+    text-align:center;
+    font-family:'Pacifico';
+    color:orange;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+input {
+    padding:5px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 3px;
+}
+textarea {
+    width: 250px;
+    padding:20px 10px ;
+    border: 2px solid lightgray;
+}
+  
+.input{
+    padding: 12px 20px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 3px;
+}
+.inlagg{
+    margin:10px;
+    padding: 20px;
+}
+.text{
+    text-align:center;
+}
+h1{
+    padding-top:100px;
+    text-align:center;
+    font-family:'Pacifico';
+    color:orange;
+}
+.link{
+    color: black;
+}
